@@ -1,0 +1,54 @@
+﻿body {
+    background-color: #eee;
+    color: white;
+}
+html {
+    box-sizing: border-box;
+}
+
+.card-container {
+    width: 100%;
+    height: auto;
+    max-width: 900px;
+    margin: 6rem auto;
+    background-color: #eee;
+    border-radius: 15px;
+    padding: 0.5rem 2rem 2rem 2rem;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 #156838;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 90px;
+    font-weight: 900;
+}
+
+#txtNom, #txtPrenom, #txtAdresse, #txtDdn, #txtNumero, #txtDate {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    border-radius: 15px;
+    text-indent: 9px;
+}
+
+#btnSave, #btnCancel {
+    border: none;
+    position: relative;
+    width: 200px;
+    height:50px;
+    padding: 10px 20px;
+    border-radius: 24px;
+    font-size: 12px;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top:20px;
+    font-weight: bold;
+    background: #BE7B2E;
+    margin: 10px;
+}
