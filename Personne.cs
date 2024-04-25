@@ -60,8 +60,16 @@ namespace RegisterForCcpap
         public string Title(string t)
         {
             string b = "";
-            b = char.ToUpper(t[0]) + t.Substring(1);
-            return b;
+            if (t != "")
+            {
+                b = char.ToUpper(t[0]) + t.Substring(1);
+                return b;
+            }
+            else
+            {
+                return "";
+            }
+            
         }
     }
 }

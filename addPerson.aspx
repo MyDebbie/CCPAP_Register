@@ -1,16 +1,17 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="RegisterForCcpap.Register" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="addPerson.aspx.cs" Inherits="RegisterForCcpap.addPerson" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Register for CCPAP</title>
-    <link rel="stylesheet" href="Styles/StyleSheet1.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="Styles/StyleSheet1.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class="card-container">
+        <div>
+            <div class="card-container">
             <main class="main-content">
                 <h2> Register Person for CCPAP</h2>
                 <div>
@@ -34,6 +35,7 @@
                 </div>
                 </main>
 
+        </div>
         </div>
     </form>
 </body>

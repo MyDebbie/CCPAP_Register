@@ -4,13 +4,12 @@ using System.Configuration;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
-using System.Web.Services.Description;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
 namespace RegisterForCcpap
 {
-    public partial class Register : System.Web.UI.Page
+    public partial class addPerson : System.Web.UI.Page
     {
         private static string userName = Environment.UserName;
         private static string connectionString = ConfigurationManager.ConnectionStrings["AuthConnectionString"].ToString();
@@ -23,13 +22,11 @@ namespace RegisterForCcpap
             {
                 txtDate.Text = DateTime.Now.ToString("yyyy-MM-dd");
             }
-
         }
 
         protected void btnSave_Click(object sender, EventArgs e)
         {
             InsererPersonne();
-           
         }
 
         protected void InsererPersonne()

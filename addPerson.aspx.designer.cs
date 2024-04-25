@@ -11,7 +11,7 @@ namespace RegisterForCcpap
 {
 
 
-    public partial class Register
+    public partial class addPerson
     {
 
         /// <summary>
